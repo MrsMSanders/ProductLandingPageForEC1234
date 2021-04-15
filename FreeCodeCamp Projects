@@ -1,0 +1,129 @@
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+           
+        src="https://i.postimg.cc/bNPkFZ5Q/Eye-Create-Quora.jpg"
+        alt="Eye Create 1234 logo"
+      />
+    </div>
+
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#How it Works">How it Works</a></li>
+        <li><a class="nav-link" href="#Coaching">Coaching</a></li>
+        <li><a class="nav-link" href="#Manifesting Journal">Manifesting Journal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Manifest Your Life!</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Manifestation Journal</h2>
+          <p>
+            Use our journal exercises to manifest the life you want. Daily journal entries, visualization exercises, meditation chants, and affirmations. 
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Coaching</h2>
+          <p>
+            You are not alone. Let our manifestation experts guide you when you feel lost, stuck, or unmotivated. Ask them questions. Let our coaches guide you.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Entire package</h2>
+          <p>
+            Get the journal, coaching, group mentoring, and bonus gratitude, and stones of your choice in one bundle price. 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src="https://youtu.be/hcj1wtQkcxY"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Manifesting Journal</div>
+        <h2>$49</h2>
+        <ol>
+          <li>Daily Manifestation Exercises.</li>
+          <li>Daily Gratitude.</li>
+          <li>Daily Affirmation.</li>
+          <li>Goal Setting.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Coaching</div>
+        <h2> Starting at $150</h2>
+        <ol>
+          <li>Monthly Coaching $200.</li>
+          <li>Weekly Coaching $750.</li>
+          <li>Weekly Group Mentoring $150.</li>
+          <li>Monthly Group Mentoring $550.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Bundle Package</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Journal</li>
+          <li>Coaching up to 4 times a month (you pick your schedule).</li>
+          <li>Group mentoring up to 4 times a month (you pick your schedule).</li>
+          <li>Free stones of your choice and automatic VIP to events.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, Eye Create 1234</span>
+    </footer>
+  </div>
+</div>
